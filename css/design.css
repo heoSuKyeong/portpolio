@@ -28,7 +28,7 @@ body {
 }
 
 #cursor {
-  pointer-events: none; /* ï¿½ê¾¨?˜’ï¿½ï¿½ ï¿½ë³¦?”¤ ï¿½ë¶¿?ƒ¼ ??Œã…¼ê½? ï¿½ë??ê¹½ï¿½ï¿? ï§ë±ï¿? ï¿½ë”…ë£„æ¿¡ï¿? */
+  pointer-events: none; /* ï¿½ê¾¨?ï¿½ï¿½ï¿½ï¿½ ï¿½ë³¦?ï¿½ï¿½ ï¿½ë¶¿?ï¿½ï¿½ ??ï¿½ã…¼ï¿½? ï¿½ï¿½??ê¹½ï¿½ï¿½? ï§ë±ï¿½? ï¿½ë”…ë£„æ¿¡ï¿½? */
   position: fixed;
   top: -10%;
   left: -10%;
@@ -120,7 +120,7 @@ header {
   opacity: 0;
 }
 header.ani_on {
-  animation: slideDown 1s 4.4s both, fadeIn 1s 4.4s both;
+  animation: slideDown 1s 2.4s both, fadeIn 1s 2.4s both;
 }
 header a {
   color: #ffffff;
@@ -153,7 +153,7 @@ header h1 a:hover {
 header ul {
   height: 100%;
   display: flex;
-  align-items: stretch; /* li ï¿½ë?ªì”  100 ï§¡â‘¥ï¿½ï¿½?„ì¾? stretch */
+  align-items: stretch; /* li ï¿½ï¿½?ï¿½ì”  100 ï§¡â‘¥ï¿½ï¿½?ï¿½ï¿½ï¿½? stretch */
 }
 header ul li {
   position: relative;
@@ -382,14 +382,13 @@ about
   text-align: center;
 }
 .gretting {
-  
   font-size: 30px;
   font-weight: bold;
   color: #1e445b;
 }
 
 .info u {
-  color: #2D3C4F;
+  color: #2d3c4f;
 }
 
 #about .contents_wrap {
@@ -416,7 +415,6 @@ about
   width: 300px;
   height: 400px;
   border-radius: 50%;
- 
 }
 
 #about .info_all2 {
@@ -440,7 +438,7 @@ about
 
 #about .contents_wrap .info_all2 .info-row .info {
   margin-right: 200px;
-}  
+}
 
 #about .contents_wrap .info_all2 .info h2 {
   font-size: 1.25rem;
@@ -535,7 +533,6 @@ about
   text-shadow: rgba(87, 124, 147, 0.3) 5px 5px 1px;
 }
 
-
 #skill .skills {
   margin: 0 auto;
   display: flex;
@@ -567,7 +564,7 @@ about
   width: 300px;
 }
 
-#skill .skill-col{
+#skill .skill-col {
   display: flex;
   flex-direction: column;
 }
@@ -593,7 +590,6 @@ about
 #archiving #archiving-tistory:hover {
   transform: translateY(20px);
 }
-
 
 #archiving .archiving-wrap {
   background-color: #fff;
@@ -624,27 +620,25 @@ about
   margin-right: 10px;
 }
 
-#archiving .archiving-url {
+#archiving #archiving-url {
   margin-bottom: 1rem;
   color: #258ddb;
 }
 
-#archiving .archiving-content p{
+#archiving .archiving-content p {
   font-size: 20px;
   margin-bottom: 1rem;
 }
 
-#archiving .archiving-content ul{
+#archiving .archiving-content ul {
   margin-bottom: 1rem;
   list-style-type: disc;
 }
 
-#archiving .archiving-content li{
+#archiving .archiving-content li {
   font-size: 20px;
   margin-bottom: 0.5rem;
 }
-
-
 
 /* web */
 

@@ -15,7 +15,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/design.css" />
-    <link rel="stylesheet" href="./css/animation.css" />active
+    <link rel="stylesheet" href="./css/animation.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
@@ -264,7 +264,7 @@
                 <div><img src="img/github.png"></div>
                 <div class="archiving-title">GitHub</div>
               </div>
-              <div class="archiving-url">https://github.com/heoSuKyeong/</div>
+              <div id="archiving-url" onclick="move1()"><span>https://github.com/heoSuKyeong/</span></div>
               <div class="archiving-content">
                 <p><b>소스코드 저장소</b>입니다.</p>
                 <ul>
@@ -282,7 +282,7 @@
                 <div><img src="img/tstory.png"></div>
                 <div class="archiving-title">Tistory</div>
               </div>
-              <div class="archiving-url">https://steady-record.tistory.com</div>
+              <div id="archiving-url" onclick="move2()">https://steady-record.tistory.com</div>
               <div class="archiving-content">
                 <p><b>공부 및 지식 공유</b> 목적의 블로그입니다.</p>
                 <ul>
@@ -297,7 +297,7 @@
 
           </div>
         </div>
-      </div>
+      
 
 
       <div id="seoulmilk" class="section web_section">
@@ -305,7 +305,7 @@
           <div class="mockup_all">
             <div class="mockup desktop">
               <p class="screenshot">
-                <img src="img/m-port.png" alt="PORT VOL.01" />
+                <img src="img/jalangi.png" alt="jalangi" />
               </p>
               <p class="frame"></p>
             </div>
@@ -317,29 +317,33 @@
           <div class="info">
             <div class="title">
               <h1>PORT VOL.01</h1>
-              <p class="description">첫 포트폴리오</p>
+              <p class="description">[자격증 종합 정보 사이트, 자랑이]
+              </p>
             </div>
             <ul>
               <li>
                 <span>TYPE</span>
-                <span>Responsive Web</span>
+                <span>Servlet & JSP Project</span>
               </li>
               <li>
-                <span>PAGE</span>
-                <span>Main</span>
+                <span>LANGUAGE</span>
+                <span>Java, Oracle Database 11g, HTML, CSS, JavaScript, JPS/Servlet
+                </span>
               </li>
               <li>
                 <span>TOOL</span>
-                <span>HTML, CSS, JS(jQuery)</span>
+                <span>Eclipse, SQL Developer, eXERD, Draw.io, Google Drive
+                </span>
               </li>
               <li>
-                <span>참여도</span>
-                <span>100% (개인 작업)</span>
+                <span>PERIOD</span>
+                <span>2023/10/30 ~ 2023/11/17</span>
               </li>
             </ul>
             <div class="link">
-              <a href="https://github.com/wnlsl8151/portfolio01" target="_blank"
-                >Website</a
+              <a href="https://github.com/fhwang98/JSP_PROJECT_JALANG-I
+              " target="_blank"
+                >GitHub</a
               >
             </div>
           </div>
@@ -351,8 +355,8 @@
         <div class="contents">
           <div class="mockup_all">
             <div class="mockup desktop">
-              <p class="screenshot">
-                <img src="./img/port-mtd.png" alt="맥 모바일 스크린샷" />
+              <p class="screenshot" style="top:15%;">
+                <img src="./img/mztest.png" alt="mz테스트" style="width: 60%;" />
               </p>
               <p class="frame"></p>
             </div>
@@ -360,53 +364,38 @@
           <div class="info">
             <div class="title">
               <h1>PORT VOL.02</h1>
-              <p class="description">두번째 포트폴리오</p>
+              <p class="description">[세대 간의 통합을 위한, MZ 레벨 테스트]
+              </p>
             </div>
             <ul>
               <li>
                 <span>TYPE</span>
-                <span>Responsive Web</span>
+                <span>Mobile & Web Project</span>
               </li>
               <li>
-                <span>PAGE</span>
-                <span>Main</span>
+                <span>LANGUAGE</span>
+                <span>Java, HTML, CSS, JavaScript
+                </span>
               </li>
               <li>
                 <span>TOOL</span>
-                <span>HTML, CSS, Vanilla JS</span>
+                <span>Visual Studio Code, Figma
+                </span>
               </li>
               <li>
-                <span>참여도</span>
-                <span>100% (개인 작업)</span>
+                <span>PERIOD</span>
+                <span>2023/02/16 ~ 2023/02/26
+                </span>
               </li>
             </ul>
             <div class="link">
-              <a href="https://github.com/wnlsl8151/portfolio00" target="_blank"
+              <a href="https://mzoffice-typetest.netlify.app/
+              " target="_blank"
                 >Website</a
               >
             </div>
           </div>
           <!-- e:info -->
-<!-- 
-          <div class="modal_popup_bg styleguide">
-            <div class="container">
-              <div class="title_btn_container">
-                <p class="title">
-                  <span>스타일가이드 </span><span>PORT VOL.02</span>
-                </p>
-                <a href="#!" class="close_btn"
-                  ><img src="images/icon_close.svg" alt="닫기"
-                /></a>
-              </div>
-              <div class="img_container">
-                <iframe
-                  src="project/web_app/mac_cosmetics_responsive/styleguide.html"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-           -->
-          <!-- e:modal_popup_bg -->
         </div>
         <!-- e:contents -->
         <div class="bg_circle"></div>
@@ -417,38 +406,42 @@
           <div class="mockup_all desktop_only">
             <div class="mockup desktop">
               <p class="screenshot">
-                <img src="img/hana-m.png" alt="하나성형외과" />
+                <img src="img/coffee.png" alt="오늘의커피" />
               </p>
               <p class="frame"></p>
             </div>
           </div>
           <div class="info">
             <div class="title">
-              <h1>HANA</h1>
+              <h1>PORT VOL.03</h1>
               <p class="description">
-                자신감을 살려주는 성형외과, 하나성형외과
+                [개인 취향에 따른 원두 추천 사이트, 오늘의 커피]
               </p>
             </div>
             <ul>
               <li>
                 <span>TYPE</span>
-                <span>Responsive Web</span>
+                <span>Web Project</span>
               </li>
               <li>
-                <span>PAGE</span>
-                <span>Main page</span>
+                <span>LANGUAGE</span>
+                <span>Java, HTML, CSS, JavaScript
+                </span>
               </li>
               <li>
                 <span>TOOL</span>
-                <span>HTML, CSS, JS</span>
+                <span>Visual Studio Code
+                </span>
               </li>
               <li>
-                <span>참여도</span>
-                <span>100% (개인 작업)</span>
+                <span>PERIOD</span>
+                <span>2022/02/09~2022/02/25
+                </span>
               </li>
             </ul>
             <div class="link">
-              <a href="https://github.com/wnlsl8151/hana-port" target="_blank"
+              <a href="https://todaycoffee.netlify.app/index.html
+              " target="_blank"
                 >Website</a
               >
             </div>
@@ -484,41 +477,48 @@
           <div class="mockup_all">
             <div class="mockup desktop">
               <p class="screenshot">
-                <img src="img/tour-port.png" alt="투어리스트" />
+                <img src="img/oracle.png" alt="oracle" />
               </p>
               <p class="frame"></p>
             </div>
           </div>
           <div class="info">
             <div class="title">
-              <h1>TOURLIST</h1>
+              <h1>PORT VOL.04</h1>
               <p class="description">
-                아름다운 여행지,가성비 여행지 추천사이트
+                [효율적인 학원 운영을 위한, 관리시스템 DB 구현]
+
               </p>
             </div>
             <ul>
               <li>
                 <span>TYPE</span>
-                <span>Responsive Web</span>
+                <span>DB(Oracle) Project</span>
               </li>
               <li>
-                <span>PAGE</span>
-                <span>Main page</span>
+                <span>LANGUAGE</span>
+                <span>Oracle Database 11g
+                </span>
               </li>
               <li>
                 <span>TOOL</span>
-                <span>HTML, CSS, Vanilla JS</span>
+                <span>SQL Developer, DBeaver, eXERD, Draw.io
+
+                </span>
               </li>
               <li>
-                <span>참여도</span>
-                <span>100% (개인 작업)</span>
+                <span>PERIOD</span>
+                <span>2023/09/11~2023/09/18
+
+                </span>
               </li>
             </ul>
             <div class="link">
               <a
-                href="https://github.com/wnlsl8151/tourlist"
+                href="https://github.com/heoSuKyeong/oracle-education-db
+                "
                 target="_blank"
-                >Website</a
+                >GitHub</a
               >
             </div>
           </div>
@@ -552,13 +552,25 @@
         <div class="contents">
           <h1>CONTACT</h1>
 
-          <h2>2023 WEB PUBLISHIER 최진식입니다.</h2>
+          <h2>신입 JAVA DEVELOPER 허수경입니다.</h2>
 
-            <p>열심히 도약하겠습니다.</p>
             <p>힘들어도 멈추지 않고</p>
             <p>끈기있게 도전하겠습니다.</p>
-      
-    </div>
+            <p>E-mail : fcb1014@naver.com</p>
+            
+          </div>
+  </div>
     <script src="script/script.js"></script>
+    <script>
+
+      function move1(){
+        window.open('https://github.com/heoSuKyeong/');
+      }
+
+      function move2(){
+        window.open('https://steady-record.tistory.com');
+      }
+
+    </script>
   </body>
 </html>
