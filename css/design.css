@@ -28,7 +28,7 @@ body {
 }
 
 #cursor {
-  pointer-events: none; /* �꾨?���� �볦?�� �붿?�� ??�ㅼ�? ��??깽��? 留됱�? �딅룄濡�? */
+  pointer-events: none; /* �꾨?���� �볦?�� �붿?�� ??�ㅼ�?? ��??깽��?? 留됱�?? �딅룄濡�?? */
   position: fixed;
   top: -10%;
   left: -10%;
@@ -153,7 +153,7 @@ header h1 a:hover {
 header ul {
   height: 100%;
   display: flex;
-  align-items: stretch; /* li ��?�씠 100 李⑥��?���? stretch */
+  align-items: stretch; /* li ��?�씠 100 李⑥��?���?? stretch */
 }
 header ul li {
   position: relative;
@@ -973,6 +973,9 @@ clone
 }
 #clone .contents h2,
 #clone .contents p {
+  color: #fff;
+}
+#clone .contents a {
   color: #fff;
 }
 #clone .contents .grid-container .grid-item {
